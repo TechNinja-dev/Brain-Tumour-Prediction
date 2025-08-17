@@ -41,7 +41,15 @@ You can download the dataset from the link below and place it in the `data/` fol
    ```bash
    cd Brain-Tumour-Prediction
    git clone https://github.com/TechNinja-dev/Brain-Tumour-Prediction.git
-2. **▶️ Order of Execution**
+   ```
+
+2. **Install Python Dependencies**
+
+```bash
+pip install tensorflow pandas numpy scikit-learn tensorflow seaborn os 
+```
+
+3. **▶️ Order of Execution**
 
 Run the files in the following order:
 
