@@ -69,7 +69,7 @@ Trains the model, evaluates performance, and saves the trained weights in models
 **Streamlit Application**
 ```bash
 streamlit run app.py
-```bash
+```
 
 Launches the web interface for real-time MRI image predictions.
 
