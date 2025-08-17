@@ -34,9 +34,43 @@ You can download the dataset from the link below and place it in the `data/` fol
 
 ---
 
+
 ## 📦 Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/TechNinja-dev/Brain-Tumour-Prediction.git
    cd Brain-Tumour-Prediction
+   git clone https://github.com/TechNinja-dev/Brain-Tumour-Prediction.git
+2. **▶️ Order of Execution**
+
+Run the files in the following order:
+
+**Data Preprocessing**
+```bash
+python data_preprocessing.py
+
+```
+Cleans and prepares the MRI dataset for training.
+
+**Model Definition**
+```bash
+python models.py
+```
+
+Defines the CNN architecture to be used for brain tumor classification.
+
+**Training & Evaluation**
+```bash
+python train_evaluate.py
+
+```
+Trains the model, evaluates performance, and saves the trained weights in models/.
+
+**Streamlit Application**
+```bash
+streamlit run app.py
+```bash
+
+Launches the web interface for real-time MRI image predictions.
+
+
