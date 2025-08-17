@@ -9,7 +9,7 @@ from data_preprocessing import get_data_generators
 from models import build_custom_cnn, build_transfer_model
 
 # Configuration
-DATA_DIR = 'train-20250712T151006Z-1-001\\train'
+DATA_DIR = 'Tumour\\train'
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 30
